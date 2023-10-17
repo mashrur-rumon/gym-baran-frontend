@@ -1,0 +1,191 @@
+@import url('https://fonts.cdnfonts.com/css/sporting-grotesque');
+
+html {
+    box-sizing: border-box;
+}
+  
+body {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    background-color: #FFF;
+}
+  
+a {
+    text-decoration: none !important;
+    cursor: pointer;
+}
+  
+h5 {
+    color: #ffffff;
+}
+    
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0
+}
+  
+li {
+    color: #637381;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.category-heading {
+    font-family: Sporting Grotesque;
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 73px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+/* paragraphn text, healthy-tips-learn more */
+.text-1 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+/* healthytips-heading */
+.text-2 {
+    color: white;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+/* imageheading-heading ,programs-head, testimonial-user name*/
+.text-3 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+/* imageheading-text */
+.text-4 {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+/* brands, learn more button */
+.text-5 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.works-text {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+.footer-text {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.footer-text-head {
+    font-family: Sporting Grotesque;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.blue-button {
+    width: 246px;
+    height: 56px;
+    border-radius: 10px;
+}
+
+.logoFirstPart{
+    background-color: #6765F0;
+    color: #FFF;
+    font-family: Sporting Grotesque;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.logoSecondPart{
+    color: #6765F0;
+    font-family: Sporting Grotesque;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 5px;
+}
+
+.navItems{
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.loginButton{
+    width: 114px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #264373;
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 1024px) {
+    .navList{
+        gap: 30px;
+    }
+  }
+
+  @media screen and (max-width: 414px) {
+    .logoFirstPart{
+        font-size: 16px;
+    }
+    .logoSecondPart{
+        font-size: 16px;  
+    }
+  }
