@@ -124,11 +124,14 @@ li {
 }
 
 .blue-button {
+    background-color: #264373;
+    color: #FFFFFF;
     width: 246px;
     height: 56px;
     border-radius: 10px;
 }
 
+/* navbar starts */
 .logoFirstPart{
     background-color: #6765F0;
     color: #FFF;
@@ -174,18 +177,76 @@ li {
     margin: 0;
     padding: 0;
 }
+/* navbar ends */
 
 @media screen and (min-width: 1024px) {
+    .containerPadding{
+        padding: 10px 50px 0px 50px;
+    }
     .navList{
         gap: 30px;
     }
+    .customHeading{
+        padding-top: 80px;
+    }
+    .bestWorkoutConrentDiv{
+        padding-right: 300px;
+    }
+  }
+
+  @media screen and (max-width: 820px) {
+    .loginButton{
+        width: 100px;
+        height: 35px;
+    }
+    .category-heading{
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 40px;
+    }
+    .text-1{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 23px;
+    }
+    .blue-button{
+        font-size: 14px;
+        width: 145px;
+        height: 40px;
+    }
+    .rightArrown{
+        height: 20px;
+    }
+
   }
 
   @media screen and (max-width: 414px) {
+    .loginButton{
+        width: 100px;
+        height: 35px;
+    }
+    .imageMargin{
+        padding-top: 30px;
+    }
     .logoFirstPart{
         font-size: 16px;
     }
     .logoSecondPart{
         font-size: 16px;  
     }
+    .category-heading{
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 40px;
+    }
+    .text-1{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 28px;
+    }
+    .blue-button{
+        font-size: 13px;
+    }
+
+
   }

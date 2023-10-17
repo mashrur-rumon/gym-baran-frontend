@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 const Nav = () => {
   return (
 <nav className="navbar navbar-expand-sm bg-white navbar-white px-lg-5">
-  <div className="container-fluid">
+  <div className="container-fluid containerPadding">
     <div>
       <span className="logoFirstPart">Gym</span>
       <span className="logoSecondPart">baran</span>
