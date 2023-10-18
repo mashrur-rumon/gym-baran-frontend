@@ -1,7 +1,8 @@
 import React from 'react';
 import Layout from './Layout';
 import image1 from '../image/image1.svg';
-import arrowRight from '../image/arrowRight.svg'
+import arrowRight from '../image/arrowRight.svg';
+
 function Home() {
   return (
     <Layout>
