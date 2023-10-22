@@ -183,6 +183,14 @@ li {
     .containerPadding{
         padding: 10px 50px 0px 50px;
     }
+    .dailyWorkoutConrentDiv{
+        padding-right: 150px;
+        padding-left: 210px;
+    }
+    .dailyImageMargin{
+        margin-left: 0px;
+        padding-left: 120px;
+    }
     .navList{
         gap: 30px;
     }
@@ -211,6 +219,13 @@ li {
     .bestWorkoutConrentDiv{
         padding-right: 60px;
     }
+    .dailyWorkoutConrentDiv{
+        padding-left: 60px;
+        padding-right: 30px;
+    }
+    .dailyImageMargin{
+        margin-left: -15px;
+    }
     .text-1{
         font-size: 14px;
         font-weight: 400;
@@ -232,9 +247,17 @@ li {
         width: 100px;
         height: 35px;
     }
+    .dailyWorkoutConrentDiv{
+        padding: 10px;
+    }
     .imageMargin{
         padding-top: 30px;
         margin-left: -15px;
+    }
+    .dailyImageMargin{
+        padding-top: 10px;
+        margin-left: -10px;
+    
     }
     .bestWorkoutConrentDiv{
         padding: 10px;

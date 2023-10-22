@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from './Layout';
 import image1 from '../image/image1.svg';
+import image2 from '../image/image2.svg';
 import arrowRight from '../image/arrowRight.svg';
 
 function Home() {
@@ -26,9 +27,9 @@ function Home() {
         </div>
         <div className='container-fluid containerPadding'>
           <div className='row'>
-            <div className='col-md-6 bestWorkoutConrentDiv'>
+            <div className='col-md-6 dailyWorkoutConrentDiv'>
               <p className='category-heading customHeading'>
-                Best full body workout to lose fat
+                Daily morning workout in home
               </p>
               <p className='text-1'>
                 Exercise is a very important need for our body. Health and fitness will be obtained if you can do regular exercise and run a healthy routine. Even at home we still have to be diligent in exercising, either alone or with your friends at home. 
@@ -37,8 +38,8 @@ function Home() {
                 <img className='rightArrown' src={arrowRight} alt='arrowRight'/>
               </button>
             </div>
-            <div className='col-md-6 imageMargin'>
-              < img src={image1} alt='image1'/>
+            <div className='col-md-6 dailyImageMargin'>
+              < img src={image2} alt='image2'/>
             </div>
           </div>
         </div>
