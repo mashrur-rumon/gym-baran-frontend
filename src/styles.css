@@ -239,7 +239,6 @@ li {
     .rightArrown{
         height: 20px;
     }
-
   }
 
   @media screen and (max-width: 414px) {
@@ -257,7 +256,6 @@ li {
     .dailyImageMargin{
         padding-top: 10px;
         margin-left: -10px;
-    
     }
     .bestWorkoutConrentDiv{
         padding: 10px;
@@ -281,6 +279,4 @@ li {
     .blue-button{
         font-size: 13px;
     }
-
-
   }
