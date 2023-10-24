@@ -179,6 +179,29 @@ li {
 }
 /* navbar ends */
 
+.howWorksContent{
+    height: 90px;
+    border-radius: 10px;
+    color: #262524;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+    letter-spacing: 0.18px;
+    background-color: #fafafa;
+    box-shadow: 5px 5px 10px #c7c7c7;
+    text-align: start;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+p.howWorksContent:hover, p.howWorksContent:active {
+    background-color: #FFFFFF;
+    height: 100px;
+    width: 81%;
+}
 @media screen and (min-width: 1024px) {
     .containerPadding{
         padding: 10px 50px 0px 50px;
@@ -204,8 +227,13 @@ li {
         padding-right: 230px;
         padding-left: 100px;
     }
-  }
-
+    .howWorksContentDiv{
+        margin-top: 60px;
+    }
+    .howWorksContent{
+        width: 80%;
+    }
+}
   @media screen and (max-width: 820px) {
     .loginButton{
         width: 100px;
@@ -238,6 +266,15 @@ li {
     }
     .rightArrown{
         height: 20px;
+    }
+    .howWorksContentDiv{
+        padding-right: 60px;
+        margin-top: 45px;
+    }
+    .howWorksContent{
+        height: 50px;
+        font-size: 12px;
+        padding-left: 15px;
     }
   }
 
@@ -278,5 +315,15 @@ li {
     }
     .blue-button{
         font-size: 13px;
+    }
+    .howWorksContent{     
+        width: 112%;
+        padding-left: 30px;
+        padding-right: 6px;
+    }
+    .howWorksImage{
+        padding-top: 0px;
+        margin-left: -15px;
+        margin-top: -20px;
     }
   }

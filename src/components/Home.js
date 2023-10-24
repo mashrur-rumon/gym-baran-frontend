@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from './Layout';
 import image1 from '../image/image1.svg';
 import image2 from '../image/image2.svg';
+import image3 from '../image/image3.svg';
 import arrowRight from '../image/arrowRight.svg';
 
 function Home() {
@@ -40,6 +41,29 @@ function Home() {
             </div>
             <div className='col-md-6 dailyImageMargin'>
               < img src={image2} alt='image2'/>
+            </div>
+          </div>
+        </div>
+        <div className='container-fluid containerPadding'>
+          <div className='row'>
+            <div className='col-md-6 order-2 order-md-1 order-sm-2 howWorksImage'>
+              < img src={image3} alt='image3'/>
+            </div>
+            <div className='col-md-6 order-1 order-md-2 order-sm-1 howWorksContentDiv'>
+              <p className='category-heading customHeading'>
+                How it works?
+              </p>
+              <div>
+                <p class='howWorksContent'>
+                  The body becomes sick because of rarely exercise
+                </p>
+                <p class='howWorksContent'>
+                  Don't give up in order to get a healthy body
+                </p>
+                <p class='howWorksContent'>
+                  Become addicted to the exercise that is given
+                </p>
+              </div>
             </div>
           </div>
         </div>
