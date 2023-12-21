@@ -204,18 +204,34 @@ li {
     height: 100px;
     width: 81%;
 }
-
+/* footer starts */
 .fullFooter{
     background-color: #1C3764;
     height: 350px;
 }
-/* .footerFirstPartDiv{
-    padding-left: 118px;
-} */
 
 .footer__logo{
     margin-bottom: 20px;
 }
+
+.footerHeading{
+    color: #F0F6FF;
+    font-family: Sporting Grotesque;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.footerSubInfo{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
 .footerLogoFirstPart{
     color: #7270EE;
     font-family: Sporting Grotesque;
@@ -237,6 +253,7 @@ li {
     line-height: normal;
     padding-left: 5px;
 }
+
 .card-text{
     color: #FFF;
     font-family: Poppins;
@@ -248,12 +265,14 @@ li {
     margin: 0;
     padding-bottom: 20px;
 }
+
 .footer__info{
     display: flex;
     justify-content: space-between;
     padding-left: 70px;
     text-align: left;
 }
+/* footer ends */
 
 @media screen and (min-width: 1024px) {
     .containerPadding{
@@ -332,7 +351,7 @@ li {
     }
 }
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 430px) {
     .loginButton{
         width: 100px;
         height: 35px;
@@ -379,5 +398,21 @@ li {
         padding-top: 0px;
         margin-left: -15px;
         margin-top: -20px;
+    }
+    .fullFooter{
+        background-color: #1C3764;
+        height: 700px;
+    }
+    .footer__logo{
+        padding: 0px 0px 0px 10px;
+    }
+    .card-text{
+        padding: 0px 80px 0px 15px;
+    }
+    .footer__info{
+        display: block;
+        padding-left: 15px;
+        padding-top: 15px;
+        text-align: left;
     }
   }
